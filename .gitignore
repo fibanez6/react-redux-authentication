@@ -1,0 +1,14 @@
+/node_modules
+bundle.js
+npm-debug.log
+.DS_Store
+
+# IntelliJ
+*.iml
+/.idea
+/react-redux-client/node_modules/
+/react-redux-client/package-lock.json
+/node-auth-server/.idea/
+/node-auth-server/node_modules/
+/node-auth-server/package-lock.json
+/.idea/
