@@ -27,8 +27,8 @@ This project cover section 6 of the tutorial.
 ### INSTALLATION
 
 ```
-> git clone https://github.com/fibanez6/react-redux-authentiation
-> cd react-redux-authentiation/node-server-auth
+> git clone https://github.com/fibanez6/react-redux-authentication
+> cd react-redux-authentication/node-auth-server
 > npm install
 > npm start
 ```
