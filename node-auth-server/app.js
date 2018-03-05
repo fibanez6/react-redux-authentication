@@ -3,18 +3,24 @@ const path = require('path');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 const index = require('./routes/index');
 
 const app = express();
 
+const corsOptions = {
+    origin: /localhost:\d{2,5}$/,
+    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
+
 // DB Setup
 mongoose.connect('mongodb://localhost:27017/auth');
-
 
 // uncomment after placing your favicon in /public
 app.use(logger('combined'));
 app.use(bodyParser.json({ type: '*/*' }));
+app.use(cors(corsOptions));
 
 app.use('/', index);
 
