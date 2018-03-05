@@ -13,8 +13,8 @@ This project was cloned from [StephenGrider/ReduxSimpleStarter](https://github.c
 ### INSTALLATION
 
 ```
-> git clone https://github.com/fibanez6/react-redux-authentiation
-> cd react-redux-authentiation/react-redux-client
+> git clone https://github.com/fibanez6/react-redux-authentication
+> cd react-redux-authentication/react-redux-client
 > npm install
 > npm start
 ```
