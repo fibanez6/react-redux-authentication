@@ -12,21 +12,21 @@ This project was cloned from [StephenGrider/ReduxSimpleStarter](https://github.c
 
 ### INSTALLATION
 ```
-> git clone https://github.com/fibanez6/react-redux-authentiation
-> cd react-redux-authentiation
+> git clone https://github.com/fibanez6/react-redux-authentication
+> cd react-redux-authentication
 ```
-#### SERVER
+#### [SERVER](node-auth-server)
 ```
 > cd node-server-auth
 > npm install
 > npm start
 ```
-**RUN**
+**Run server**
 ```
 > node bin/www
 ```
 
-#### CLIENT
+#### [CLIENT](react-redux-client)
 ```
 > cd react-redux-client
 > npm install
