@@ -17,7 +17,7 @@ This project was cloned from [StephenGrider/ReduxSimpleStarter](https://github.c
 ```
 #### [SERVER](node-auth-server)
 ```
-> cd node-server-auth
+> cd node-auth-server
 > npm install
 > npm start
 ```
