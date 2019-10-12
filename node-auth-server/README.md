@@ -37,3 +37,21 @@ This project cover section 6 of the tutorial.
 ```
 > node bin/www
 ```
+
+
+## Example
+
+SIGNUP
+```
+Request:
+curl --request POST \
+  --url http://127.0.0.1:3000/signup \
+  --header 'Accept: */*' \
+  --header 'Content-Type: application/json' \
+  --data '{\n	"email": "fibanez@fibanez.com",\n	"password": "asdads"\n}'
+  
+Response:
+{
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZGExZmQ4Mzk3Y2NhOTVkMTc2ZmU3MGYiLCJpYXQiOjE1NzA4OTcyODM2NTF9.DFaJbRuWoCLqVmZQIXwkuCs1xDpLMMjZmeXS34oSqKI"
+}
+```
